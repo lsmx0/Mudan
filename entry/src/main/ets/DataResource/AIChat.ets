@@ -44,9 +44,9 @@ interface ApiResponseInterface {
 // AI服务类 - 处理对话逻辑
 export class AIChatService {
   // Kimi API Key
-  private static API_KEY = 'sk-RrolgHM15rXvn9HTFyOSdOymIHqEwxcPO0eOz9Vu8MqqVQN5'
+  private static API_KEY = ''
   // API基础URL
-  private static BASE_URL = 'https://api.moonshot.cn/v1/chat/completions'
+  private static BASE_URL = ''
 
   // 牡丹知识系统提示词
   private static SYSTEM_PROMPT = `你是一个专业的牡丹花卉专家，名为"牡丹小精灵"。你拥有关于牡丹的丰富知识，包括但不限于：

@@ -62,8 +62,8 @@ export struct ImageRecognition {
   private context: common.UIAbilityContext = getContext(this) as common.UIAbilityContext;
   
   // API相关配置
-  private readonly API_URL: string = "https://k3h6r529l1ocvdy8.aistudio-hub.baidu.com/image-classification";
-  private readonly TOKEN: string = "1b8b45f722f3fd8f811dd51d03caa2fc4a58cb2d";
+  private readonly API_URL: string = "";
+  private readonly TOKEN: string = "";
 
   // 选择图片
   async selectImage() {
